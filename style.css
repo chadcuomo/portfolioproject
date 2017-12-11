@@ -104,4 +104,13 @@ body {
 .portfoliocontent {
     width: 100%;
     margin: 0 auto;
+    padding: 10px
+}
+
+.contactcontent {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 950px;
+    float: left;
+    padding: 10px;
 }
