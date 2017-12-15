@@ -1,6 +1,8 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 14pt;
+    font-size: 16px;
+    padding-top: 80px;
+ 
 }
 
 . {
@@ -27,6 +29,7 @@ a:hover {
 }
 
 .navigation {
+    opacity: 0.8;
     border: 0;
     background-color: #ffffff;
 }
@@ -39,12 +42,14 @@ a:hover {
     width: 50%
 }
 .nav-left {
+   
     display: flex;
     justify-content: flex-start;
     flex: 1;
 }
 
 .nav-right {
+    
    
     justify-content: flex-end;
     padding-top: 10px;
@@ -115,7 +120,7 @@ a:hover {
 .portfoliocontent {
     width: 100%;
     margin: 0 auto;
-    padding: 10px
+    padding: 15px
 }
 
 .contactcontent {
@@ -123,5 +128,77 @@ a:hover {
     margin: 0 auto;
     max-width: 900px;
     
-    padding: 10px;
+    padding: 15px;
+}
+
+.social-icons {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.bottom-nav {
+    width: 100%;
+    
+}
+
+.twitter {
+    color: #4ddbff;
+}
+
+a.twitter:hover {
+    color: #b3f0ff;
+}
+
+.instagram {
+    color: #ff66cc;
+}
+
+a.instagram:hover {
+    color: #ff99dd;
+}
+
+.linkedin {
+    color:  #4d94ff;
+}
+
+a.linkedin:hover {
+    color: #80b3ff;
+
+}
+
+.github {
+    color: #737373;
+}
+
+a.github:hover {
+    color: #8c8c8c;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+#portfolio {
+    padding-top: 40px;
+    position: relative;
+    visibility: hidden;
+}
+
+
+#about {
+    padding-top: 40px;
+    position: relative;
+    visibility: hidden;
+}   
+
+#contact {
+    padding-top: 40px;
+    position: relative;
+    visibility: hidden;
+}
+
+#top {
+    position: relative;
+    visibility: hidden;
+   bottom: 80px;
 }
